@@ -1,0 +1,4 @@
+background: #121212
+accententen: #0F151A
+navbar: #1f1f1f
+blauw cirkel en volume: 0D3C59

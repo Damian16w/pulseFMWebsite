@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Website profided by JunkHoofd's Websites -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="language" content="Dutch" />
+  <title>Pulse FM radio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/x-icon" href="/afbeeldingen/logo.png" />
+  <style></style>
+</head>
+
+<body>
+  <!-- Navbar begin -->
+  <!-- <nav>
+    <div class="navrow">
+      <div class="nlogo">
+        <img src="afbeeldingen/logo.png" alt="logo" width="20%" height="auto" style="vertical-align: middle" />
+        <p style="vertical-align: middle"><b>Pulse FM</b></p>
+      </div>
+      <div class="ninfo">
+        <a href="coming.html"><b>Info</b></a>
+      </div>
+      <div class="nluister">
+        <a href="index.html"><b>Listen Live</b></a>
+      </div>
+      <div class="nverzoek">
+        <a href="coming.html"><b>Requests</b></a>
+      </div>
+    </div>
+  </nav> -->
+  <!-- navbar eind -->
+  <main>
+    <h1 class="tijdtitle">Pulse FM</h1>
+    <!-- Blok -->
+    <div class="box">
+      <div class="row"></div>
+      <div class="row">
+        <h1>You are hearing:</h1>
+      </div>
+      <div class="row"></div>
+      <div class="row"><img src="" class="circle" id="spinning_lp"></div>
+      <div class="now_playing">
+        <h2 id="now_playing"> <span id="title">Title</span> - <span id="artist">Artist</span></h2>
+      </div>
+      <div class="volume">
+      <audio id="audio" src="http://play.pulsefm.nl/listen/pulsefm/radio.mp3" preload="auto"></audio>
+      <button id="playPause" onclick="togglePlayPause()">Unmute</button>
+          <input type="range" min="0" max="100" step="1" value="100" id="volumeSlider" oninput="updateVolume()">
+        </div>
+    </div>
+    <!-- blok eind -->
+  </main>
+  <!-- footer  -->
+  <!-- <footer>
+    <div class="frow">
+      <div class="ftekst">
+        <p>
+          <strong>Pulse FM</strong> <br> <br>
+          Feel the Pulse, <br>
+          Live the Beat!
+        </p>
+        <div class="copyr">
+          <p><span>&copy;Pulse FM 2023</span></p>
+        </div>
+      </div>
+      <div class="fnogwat"></div>
+      <div class="flinks">
+        <h1>Shortcuts</h1>
+        <a href="coming.html">Information</a><br /><br />
+        <a href="coming.html">Request a Song</a>
+      </div>
+      <div class="col">
+        <p></p>
+      </div>
+      <div class="fsocials">
+        <h1>Socials</h1>
+        <a href="https://discord.gg/bSSMkrx94s">Discord server</a>
+      </div>
+    </div>
+  </footer> -->
+  <!-- footer eind -->
+  <script defer="defer" src="script.js"></script>
+</body>
+</html>
